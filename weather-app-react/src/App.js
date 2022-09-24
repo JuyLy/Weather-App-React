@@ -23,7 +23,7 @@ export default function App() {
           open-sounded on CitHub
         </a>
         {""} and {""}
-        <a href="https://app.netlify.com/teams/juyly/overview">
+        <a href="https://polite-longma-941a77.netlify.app/://app.netlify.com/teams/juyly/overview">
           hosted on Netlify
         </a>
       </h5>
