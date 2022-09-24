@@ -19,7 +19,7 @@ export default function App() {
       </header>
       <h5>
         Coded by July Lystopadska and is {""}
-        <a href="https://github.com/JuyLy/Weather-App">
+        <a href="https://github.com/JuyLy/Weather-Apphttps://github.com/JuyLy/Weather-App-React">
           open-sounded on CitHub
         </a>
         {""} and {""}
