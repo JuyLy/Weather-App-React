@@ -1,15 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+import Form from "./Form";
+import Weather from "./Weather";
+import Forecast from "./Forecast";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <h1>Hello from App</h1>
+      <header>
+        <div className="container">
+          <div className="weather-app">
+            <Form />
+            <Weather />
+            <Forecast />
+          </div>
+        </div>
       </header>
+      <h5>
+        Coded by July Lystopadska and is {""}
+        <a href="https://github.com/JuyLy/Weather-App">
+          open-sounded on CitHub
+        </a>
+        {""} and {""}
+        <a href="https://app.netlify.com/teams/juyly/overview">
+          hosted on Netlify
+        </a>
+      </h5>
     </div>
   );
 }
-
-export default App;
